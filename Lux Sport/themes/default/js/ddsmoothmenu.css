@@ -1,0 +1,18 @@
+.ddsmoothmenu{max-width:1170px;margin:auto;padding: 0px 10px;}
+.ddsmoothmenu ul{z-index:100;margin:0;padding:0;list-style:none}
+.ddsmoothmenu ul li{position:relative;float:left}
+.ddsmoothmenu ul li a{display:block;padding:10px 0;padding-right:30px;color:#000;font-size:.9rem;text-transform:uppercase;font-weight:500}
+* html .ddsmoothmenu ul li a{display:inline-block}
+.ddsmoothmenu ul li a.selected{color:#ed1c22}
+.ddsmoothmenu ul li ul li a.selected{color:#000;background:#123A76!important}
+.ddsmoothmenu ul li a:hover{color:#ed1c22}
+.ddsmoothmenu ul li a.active{color:#ed1c22}
+.ddsmoothmenu ul li ul{background:#123A76;position:absolute;font-size:.9rem;left:0;display:none;visibility:hidden;border-bottom:none;width:210px}
+.ddsmoothmenu ul li ul li{display:list-item;float:none}
+.ddsmoothmenu ul li ul li ul{top:0}
+.ddsmoothmenu ul li ul li a{color:#FFF;padding-bottom:10px;padding-top:10px;text-transform:none;font-weight:400;border-top:1px solid #1c60bf!important}
+* html .ddsmoothmenu{height:1%}
+.downarrowclass{position:absolute;top:12px;right:7px}
+.rightarrowclass{position:absolute;top:6px;right:5px}
+.ddshadow{position:absolute;left:0;top:0;width:0;height:0}
+.toplevelshadow{opacity:.8}
